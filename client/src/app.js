@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import {Route} from 'react-router-dom';
 // import './App.css';
 import NavBar from './components/NavBar';
-// import Jtron from './components/Jumbotron';
+import Jtron from './components/Jumbotron';
 import About from './components/About';
-// import Contact from './components/Contact';
 
 class App extends Component {
   render() {
@@ -12,6 +11,7 @@ class App extends Component {
       <div className="container">
          <Route path='/' component={NavBar}></Route>
          <Route exact path='/' component={About}></Route>
+         <Route exact path='/' component={Form}></Route>
       </div>
     );
   }

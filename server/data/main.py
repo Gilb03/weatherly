@@ -1,8 +1,11 @@
+ 
+# import pandas as pd
 ########### FILE MANIPULATION ###########
 
-#  Open file 
+#  Open file , use JS to communicate here. 
 filename = input("Enter the name of the data file: ")
-infile = open(filename, 'r')
+infile = open('/Users/gilbertking/src/weatherly/server/data/weather.csv', 'r')
+#print(infile.read())
 
 
 # Read data from line
@@ -21,6 +24,9 @@ for line in infile:
 
 # put data into list 
 datalist.append([day, month, year, lowtemp, hightemp, rainfall])
+
+#Close file 
+infile.close()
 
 
 ####### ANALYSIS #######
