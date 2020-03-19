@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import { Jumbotron, Button } from 'reactstrap';
 import PropTypes from 'prop-types';
 
-const Jtron = (props) => {
+const Hero = (props) => {
   return (
     <div>
       <Jumbotron>
@@ -26,4 +26,4 @@ Jumbotron.propTypes = {
   className: PropTypes.string
 };
 
-export default Jtron;
+export default Hero;
