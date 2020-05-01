@@ -19,10 +19,15 @@ function NavBar () {
                 Contact
             </NavLink>
         </li>
+        <li>
+            <NavLink activeClassName='active' to='/ask'>
+               Ask
+            </NavLink>
+        </li>
     </ul>
     )
     
 }
 
 
-module.exports = NavBar;
+export default  NavBar;

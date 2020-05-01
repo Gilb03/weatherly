@@ -1,0 +1,23 @@
+{
+  "name": "weatherly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gilb03/weatherly.git"
+  },
+  "author": "Gil B.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gilb03/weatherly/issues"
+  },
+  "homepage": "https://github.com/Gilb03/weatherly#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

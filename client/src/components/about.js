@@ -18,7 +18,7 @@ export default class About extends React.Component {
     render() {
       return (
         <div>
-        <h3>Gil B. </h3>
+        <h3>Gil B.</h3>
 
         <img className="photo" src={require('../images/pic.jpg')} alt="headshot1" />
         

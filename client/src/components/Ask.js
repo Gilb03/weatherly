@@ -1,4 +1,4 @@
-const Form = (props) => (
+const Ask = (props) => (
     <div id="signup" style={{ 'backgroundColor': '#ffc7a8' }} className="section">
       <div className="columns is-mobile">
         <div className="column is-half is-offset-one-quarter">
@@ -10,7 +10,7 @@ const Form = (props) => (
                 <input type="hidden" value="1" name="embed" />
               </div> 
               <div className="control">
-                <button className="button is-white">{{ ask }}</button>
+                <button className="button is-white">{{ $_API_URL }}</button>
               </div>
             </div>
           </form>
@@ -26,4 +26,4 @@ const Form = (props) => (
     </div>
   )
   
-  export default Form
+  export default Ask
